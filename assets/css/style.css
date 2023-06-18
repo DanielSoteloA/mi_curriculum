@@ -125,7 +125,7 @@ h3{
 .divTableCell {
     border: 0.05em dashed #DDD;
 	display: table-cell;
-	padding: 3px 10px;
+	padding-left: 3em;
     text-align: left;
 }
 
@@ -143,7 +143,7 @@ h3{
     }
 
     .divTableCell ul{
-        list-style: none;
+        list-style: circle;
     }
 
     .divTableCell ul li{
