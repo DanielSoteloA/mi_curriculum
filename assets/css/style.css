@@ -1,0 +1,152 @@
+/* selector de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* selector de etiqueta */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000F08;
+}
+
+p{
+    text-align: justify;
+    margin: 2% auto;
+}
+
+/* navbar */
+nav{
+    text-align: right;
+    padding: 1.25rem 4rem;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1rem;
+}
+
+.oscuro{
+    background-color: #0B1016;
+    color: #ffffff;
+}
+
+.oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.oscuro a:hover{
+    font-weight: 700;
+}
+
+.titulo{
+    background-image: url(../img/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 6rem 4rem;
+
+    text-align: left;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000080;
+    opacity: 1;
+}
+
+.centrado {
+    width: 75%;
+    margin: 0 auto;
+}
+
+section, footer{
+    margin-top: 4.5rem;
+}
+
+footer{
+    padding: 1.25rem;
+}
+
+#foot{
+    text-align: center;
+}
+
+/* titulos y parrafos */
+
+h1{
+    font-weight: 800;
+    font-size: 3.75em;
+    text-align: right;
+    margin-bottom: 0.25em;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.5em;
+    text-align: right;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 2.5em;
+
+
+    background-color: #eeeeee;
+    border-radius: 25% 10%;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 350px;
+}
+
+/*Tabla div ul li*/
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell {
+    border: 0.05em dashed #DDD;
+	display: table-cell;
+	padding: 3px 10px;
+    text-align: left;
+}
+
+    .divTableCell a:link, a:visited {
+        background-color: #eeeeee;
+        border-radius: 25% 10%;
+        padding: 7px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+  
+    .divTableCell a:hover, a:active {
+        background-color: rgb(193, 193, 193);
+    }
+
+    .divTableCell ul{
+        list-style: none;
+    }
+
+    .divTableCell ul li{
+        padding: 0.4em 0.1em;
+    }
+
